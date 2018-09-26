@@ -67,12 +67,5 @@
     properties which you can use check the target you are overriding in 
     nbproject/build-impl.xml file. 
 
-    -->plugins {
-  id "org.sonarqube" version "2.6"
-}
-./gradlew sonarqube \
-  -Dsonar.projectKey=jose9701_cinema1 \
-  -Dsonar.organization=jose9701-github \
-  -Dsonar.host.url=https://sonarcloud.io \
-  -Dsonar.login=7e8c1892e0907ff725aa00e03deabf352c0d5bf3
+    -->
 </project>
