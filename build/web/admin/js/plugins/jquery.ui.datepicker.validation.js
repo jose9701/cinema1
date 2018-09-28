@@ -1,5 +1,5 @@
 /* Datepicker Validation 1.0.1 for jQuery UI Datepicker 1.8.6.
-   Requires Jörn Zaefferer's Validation plugin (http://plugins.jquery.com/project/validate).
+   Requires Jï¿½rn Zaefferer's Validation plugin (http://plugins.jquery.com/project/validate).
    Written by Keith Wood (kbwood{at}iinet.com.au).
    Dual licensed under the GPL (http://dev.jquery.com/browser/trunk/jquery/GPL-LICENSE.txt) and 
    MIT (http://dev.jquery.com/browser/trunk/jquery/MIT-LICENSE.txt) licenses. 
@@ -60,15 +60,15 @@ if ($.fn.validate) {
 		   @param  message  (string) the error message
 		   @param  params  (Date[]) the dates
 		   @return  (string) the formatted message */
-		errorFormat: function(inst, message, params) {
-			var format = $.datepicker._get(inst, 'dateFormat');
-			$.each(params, function(i, v) {
-				message = message.replace(new RegExp('\\{' + i + '\\}', 'g'),
-					$.datepicker.formatDate(format, v) || 'nothing');
-			});
-			return message;
+//		errorFormat: function(inst, message, params) {
+//			var format = $.datepicker._get(inst, 'dateFormat');
+//			$.each(params, function(i, v) {
+////				message = message.replace(new RegExp('\\{' + i + '\\}', 'g'),
+////					$.datepicker.formatDate(format, v) || 'nothing');
+//			});
+//			return message;
 		}
-	});
+	);
 
 	var lastElement = null;
 
