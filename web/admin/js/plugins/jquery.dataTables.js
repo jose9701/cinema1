@@ -409,7 +409,7 @@
 				var nNext = document.createElement( 'span' );
 				var nLast = document.createElement( 'span' );
 				
-//				nFirst.innerHTML = oSettings.oLanguage.oPaginate.sFirst;
+				nFirst.innerHTML = oSettings.oLanguage.oPaginate.sFirst;
 				nPrevious.innerHTML = oSettings.oLanguage.oPaginate.sPrevious;
 				nNext.innerHTML = oSettings.oLanguage.oPaginate.sNext;
 				nLast.innerHTML = oSettings.oLanguage.oPaginate.sLast;
